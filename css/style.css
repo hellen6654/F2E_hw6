@@ -1,0 +1,212 @@
+*{
+    /* background-color: #000000; */
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ul{
+    list-style: none;  
+}
+/*header*/
+header{
+    color: #eeeeee;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 82px 20px 81px;
+    min-width: 1280px;
+}
+header img{
+    margin: 0px 0px;
+}
+header nav.top_nav{
+    margin: 0px 0px;
+}
+header ul{
+    display: flex;
+}
+header li{
+    padding: 0px 20px; 
+}
+div.middle{
+    display: flex;
+}
+/*aside*/
+aside{
+    flex: 1;
+    background-color: #073763;
+}
+aside p{
+    padding-left:30px; 
+    margin: 0 0;
+}
+aside a{
+    text-decoration: none;
+    color: #2b78e4;
+}
+aside ul{
+    margin: 0 0;
+    
+}
+aside div.giftcard,aside div.recommond, aside div.stack,aside div.seekind 
+,aside div.seetype ,aside div.looked{
+    margin-top: 20px;
+}
+/*section main*/
+section.main{
+    flex:2;
+    background-color: #073763; 
+}
+section nav.secondnav{
+    display: flex;
+    background-color: #597eaa;
+    margin: 10px 10px;
+}
+section nav.secondnav div{
+    display: flex;
+    margin: 0 0;
+    padding:0 200px ;
+}
+section nav.secondnav ul{
+    display: flex;
+    margin: 20px 50px;
+}
+section nav.secondnav li{
+    padding-left: 20px;
+}
+section nav.secondnav input{
+    margin: 20px 20px;
+}
+section.main div h1{
+    background-color: #073763;
+    margin: 0 0;
+    padding: 10px 30px;
+    padding-bottom: 0px; 
+    color: #000000;
+    margin: 10px auto 10px auto;
+}
+section .GTA5{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    padding-left:30px; 
+}
+section div.GTA5 img.big{
+    padding: 10px 0px;
+}
+section .GTA5 div.right{
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 29px;
+    background-color: grey;
+}
+section div.GTA5 p.title{
+    padding-top: 10px;
+    font-size: 30px;
+    color: #eeeeee;
+}
+section div.GTA5 div.imgg{
+    margin-top: 20px;
+}
+section div.GTA5 div.word{
+    margin-top: 20px;
+}
+section div.GTA5 div.word p.push{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+section div.GTA5 div.word p.hot{
+    padding-left:10px; 
+}
+section div.GTA5 div.word p.price{
+    margin-top: 50px;
+    color: #9fc5f8;
+}
+/*section special*/
+section h1.sptitle{
+    background-color: #073763;
+    margin: 0 0;
+    padding: 10px 30px;
+    padding-bottom: 0px; 
+    color: #000000;
+}
+section .special{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #073763;
+    margin: 0 0;
+}
+section .cod{
+    margin: 0px 30px;
+
+    background-size:contain; 
+}
+section .farcry{
+    margin: 0 30px;
+}
+section .special .two{
+    margin-top:0px;
+    margin-bottom:30px;
+    margin-right:30px; 
+}
+section .special .two img{
+    padding-top:20px; 
+}
+/* section login */
+section.login{
+    margin: 0px 0px;
+    min-width: 1280px;
+    padding-bottom:20px;
+    padding-top: 30px; 
+    padding-left: 82px; 
+    padding-right: 81px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    color: #eeeeee;
+}
+section.login h1,p,button{
+    margin: 5px 0px;
+    
+}
+section.login hr{
+    width:200px; 
+    border: 1px solid #9fc5f8;
+}
+section.login h1{
+    color: #9fc5f8;
+}
+section.login button{
+    background-color: #93c47d;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    
+}
+/*footer*/
+footer{
+    margin: 0px auto; 
+    padding: 80px 81px 80px 82px;
+    padding-top:30px;  
+    background-color: #073763;
+    min-width: 1280px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    margin: auto;
+}
+footer p{
+    color: #ffffff;
+    font-size: 0.5em ;
+}
+
