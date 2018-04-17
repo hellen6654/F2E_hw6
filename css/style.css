@@ -101,20 +101,27 @@ section div.GTA5 img.big{
 }
 section .GTA5 div.right{
     padding-left: 20px;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-right: 29px;
+    margin-top: 10px;
+    margin-bottom: 9px;
     background-color: grey;
 }
 section div.GTA5 p.title{
     padding-top: 10px;
+    margin-bottom: -10px;
     font-size: 30px;
     color: #eeeeee;
 }
 section div.GTA5 div.imgg{
     margin-top: 20px;
 }
+section div.GTA5 div.imgg img{
+    margin-left: 20px;
+    margin-top: 5px;
+}
 section div.GTA5 div.word{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 section div.GTA5 div.word p.push{
     font-size: 25px;
@@ -124,7 +131,7 @@ section div.GTA5 div.word p.hot{
     padding-left:10px; 
 }
 section div.GTA5 div.word p.price{
-    margin-top: 50px;
+    margin-top: 20px;
     color: #9fc5f8;
 }
 /*section special*/
